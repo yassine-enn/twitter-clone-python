@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+     <a href="{{ url_for('like', tweet_id=tweet['id_tweet']) }}">
+            <h3>{% block title1 %} Like {% endblock %}</h3>
+     </a>
+    <a href="{{ url_for('repondre', tweet_id=tweet['id_tweet']) }}">
+            <h3>{% block title2 %} Répondre {% endblock %}</h3>
+     </a>
+    <h3>{% block title %} {{ tweet['nom_utilisateur'] }} {% endblock %}</h3>
+    <span class="badge badge-primary">{{ tweet['message'] }}</span>
+    <p>{{ "Hashtag : "+tweet['hashtag'] }}</p>
+    <span class="badge badge-primary">{{ "Nombre de Likes : " }}</span>
+    <span class="badge badge-primary">{{ tweet['nbre_like'] }}</span>
+    <p>{{ "Date de création : "+tweet['date_creation'] }}</p>
+
+
+{% endblock %}

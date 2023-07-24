@@ -1,0 +1,74 @@
+[
+  {
+    "id_tweet": 1,
+    "nom_utilisateur": "DEV",
+    "message": "Ceci est un test de developpement de Ytwitter, le twitter made in Ynov...!",
+    "parent_id_tweet": 0,
+    "date_creation": "03/02/2021",
+    "hashtag": "#H1",
+    "nbre_like": 8
+  },
+  {
+    "id_tweet": 2,
+    "nom_utilisateur": "Yassine",
+    "message": "Hello\r\n",
+    "parent_id_tweet": 0,
+    "date_creation": "12/02/2022",
+    "hashtag": "#Test",
+    "nbre_like": 20
+  },
+  {
+    "id_tweet": 3,
+    "nom_utilisateur": "Ypessi",
+    "message": "G\u00eanant + supprime + pleure\r\n",
+    "parent_id_tweet": 2,
+    "date_creation": "12/02/2022",
+    "hashtag": "#Test",
+    "nbre_like": 0
+  },
+  {
+    "id_tweet": 4,
+    "nom_utilisateur": "Mark Zuckerberg",
+    "message": "Bro, je suis int\u00e9ress\u00e9 par ton app. Je te propose 69 420 000 000 de Dollars en \u00e9change, qu'en dis tu.",
+    "parent_id_tweet": 1,
+    "date_creation": "12/02/2022",
+    "hashtag": "#rachat",
+    "nbre_like": 8
+  },
+  {
+    "id_tweet": 5,
+    "nom_utilisateur": "Rat",
+    "message": "Tema la taille du rat\r\n",
+    "parent_id_tweet": 0,
+    "date_creation": "12/02/2022",
+    "hashtag": "#rat",
+    "nbre_like": 0
+  },
+  {
+    "id_tweet": 6,
+    "nom_utilisateur": "Cristiano Ronaldo",
+    "message": "SIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\r\n",
+    "parent_id_tweet": 0,
+    "date_creation": "12/02/2022",
+    "hashtag": "#SIUUUUU",
+    "nbre_like": 0
+  },
+  {
+    "id_tweet": 7,
+    "nom_utilisateur": "Yassine",
+    "message": "ratio\r\n",
+    "parent_id_tweet": 4,
+    "date_creation": "13/02/2022",
+    "hashtag": "#Test",
+    "nbre_like": 34
+  },
+  {
+    "id_tweet": 8,
+    "nom_utilisateur": "XxxDarkSasukexxX",
+    "message": "W",
+    "parent_id_tweet": 7,
+    "date_creation": "13/02/2022",
+    "hashtag": "#rachat",
+    "nbre_like": 1
+  }
+]

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title1 %} {{ "Message initial: "  }} {% endblock %}</h1>
+    <h2>{% block title %} {{ tweet['nom_utilisateur'] }} {% endblock %}</h2>
+    <span class="badge badge-primary">{{ tweet['message'] }}</span>
+
+      
+   <h1>{% block title2 %} {{"Réponses envoyées: "}} {% endblock %}</h1>
+
+   
+    {% for v_tweet in tweet_rep %}
+        <a href="{{ url_for('twiter', tweet_id=v_tweet['id_tweet']) }}">
+            <h2>{{ v_tweet['nom_utilisateur'] }}</h2>
+        </a>
+        <p class="msg_rep">{{ v_tweet['message'] }}</p>
+        <span class="badge badge-primary">{{ "Nombre de Likes : " }} {{v_tweet['nbre_like']}}</span>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ url_for('affiche_rep',tweet_id=v_tweet['id_tweet'])}}">Afficher réponses</a>
+            </li>
+            </ul>
+        <hr>
+
+    {% endfor %}
+{% endblock %}
